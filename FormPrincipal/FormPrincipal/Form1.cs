@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FormPrincipal.Enums;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,8 @@ namespace FormPrincipal
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            cmbNacionalidad.Items.AddRange(Enum.GetValues(typeof(Paises)).Cast<object>().ToArray());
+            cmbNacionalidad.SelectedIndex = 0;
         }
     }
 }
