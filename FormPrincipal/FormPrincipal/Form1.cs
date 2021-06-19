@@ -22,6 +22,8 @@ namespace FormPrincipal
         {
             cmbNacionalidad.Items.AddRange(Enum.GetValues(typeof(Paises)).Cast<object>().ToArray());
             cmbNacionalidad.SelectedIndex = 0;
+
+            lstPreferencias.Items.AddRange(Enum.GetValues(typeof(Preferencias)).Cast<object>().ToArray());
         }
     }
 }
