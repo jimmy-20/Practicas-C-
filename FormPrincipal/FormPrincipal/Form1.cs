@@ -21,5 +21,28 @@ namespace FormPrincipal
         {
 
         }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            string nombre;
+            nombre = Microsoft.VisualBasic.Interaction.InputBox("Ingrese el nombre", "Registro de datos", ""
+                , 0, 0);
+
+            MessageBox.Show($"Bienvenido usuario: {nombre}", "Sistema Administrativo", 
+                            MessageBoxButtons.OK, MessageBoxIcon.Information); 
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            DialogResult opcion;
+
+            opcion = MessageBox.Show("¿Quiere salir de la aplicación?", "Salir", 
+                                     MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+
+            if (opcion == DialogResult.OK)
+            {
+                Close();
+            }
+        }
     }
 }
