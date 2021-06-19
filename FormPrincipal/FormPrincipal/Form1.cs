@@ -19,7 +19,12 @@ namespace FormPrincipal
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            lblHora.Text = DateTime.Now.ToString();
+        }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            lblHora.Text = DateTime.Now.ToString();
         }
     }
 }
