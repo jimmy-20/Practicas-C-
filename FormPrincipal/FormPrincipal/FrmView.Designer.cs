@@ -30,8 +30,8 @@ namespace FormPrincipal
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.txtFinder = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtFinder = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvPersonas = new System.Windows.Forms.DataGridView();
             this.flowLayoutPanel1.SuspendLayout();
@@ -50,16 +50,6 @@ namespace FormPrincipal
             this.flowLayoutPanel1.Size = new System.Drawing.Size(598, 27);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
-            // txtFinder
-            // 
-            this.txtFinder.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtFinder.Location = new System.Drawing.Point(70, 3);
-            this.txtFinder.Name = "txtFinder";
-            this.txtFinder.Size = new System.Drawing.Size(523, 20);
-            this.txtFinder.TabIndex = 0;
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -69,6 +59,16 @@ namespace FormPrincipal
             this.label1.Size = new System.Drawing.Size(61, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Buscar por:";
+            // 
+            // txtFinder
+            // 
+            this.txtFinder.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtFinder.Location = new System.Drawing.Point(70, 3);
+            this.txtFinder.Name = "txtFinder";
+            this.txtFinder.Size = new System.Drawing.Size(523, 20);
+            this.txtFinder.TabIndex = 0;
             // 
             // groupBox1
             // 
@@ -103,6 +103,7 @@ namespace FormPrincipal
             this.Controls.Add(this.flowLayoutPanel1);
             this.Name = "FrmView";
             this.Text = "FrmView";
+            this.Load += new System.EventHandler(this.FrmView_Load);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
             this.groupBox1.ResumeLayout(false);

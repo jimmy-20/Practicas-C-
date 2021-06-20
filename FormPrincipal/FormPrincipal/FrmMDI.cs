@@ -34,6 +34,7 @@ namespace FormPrincipal
         {
             frmView = new FrmView();
             frmView.MdiParent = this;
+            frmView.personas = personas;
             frmView.Show();
         }
     }
