@@ -1,0 +1,12 @@
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.csproj.AssemblyReference.cache
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.FrmMDI.resources
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.Properties.Resources.resources
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.csproj.GenerateResource.cache
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\bin\Debug\FormPrincipal.exe.config
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\bin\Debug\FormPrincipal.exe
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\bin\Debug\FormPrincipal.pdb
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.exe
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.pdb
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.FrmDatos.resources
+C:\Users\Jimmy-Soza\source\repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.FrmView.resources
