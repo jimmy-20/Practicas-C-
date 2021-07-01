@@ -1,0 +1,13 @@
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\bin\Debug\FormPrincipal.exe.config
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\bin\Debug\FormPrincipal.exe
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\bin\Debug\FormPrincipal.pdb
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.csproj.AssemblyReference.cache
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.Form1.resources
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.Forms.FrmDepreciacion.resources
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.Forms.FrmNuevo.resources
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.Forms.FrmVer.resources
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.Properties.Resources.resources
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.csproj.GenerateResource.cache
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.csproj.CoreCompileInputs.cache
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.exe
+C:\Users\Pc\Source\Repos\Practicas-C-\FormPrincipal\FormPrincipal\obj\Debug\FormPrincipal.pdb

@@ -46,14 +46,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Clases\ActivoFijoModel\ActivoFijoModel.cs" />
+    <Compile Include="Clases\Depreciacion\Factory.cs" />
+    <Compile Include="Clases\Depreciacion\IDepreciacion.cs" />
+    <Compile Include="Clases\Depreciacion\LineaRecta.cs" />
+    <Compile Include="Clases\Depreciacion\SDA.cs" />
+    <Compile Include="Clases\Enums\MetodoDepreciacion.cs" />
+    <Compile Include="Clases\Enums\TipoActivoFijo.cs" />
+    <Compile Include="Clases\Poco\ActivoFijo.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\FrmDepreciacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmDepreciacion.Designer.cs">
+      <DependentUpon>FrmDepreciacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmNuevo.Designer.cs">
+      <DependentUpon>FrmNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrmVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrmVer.Designer.cs">
+      <DependentUpon>FrmVer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmDepreciacion.resx">
+      <DependentUpon>FrmDepreciacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmNuevo.resx">
+      <DependentUpon>FrmNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrmVer.resx">
+      <DependentUpon>FrmVer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,5 +114,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
